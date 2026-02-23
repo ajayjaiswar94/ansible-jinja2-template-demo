@@ -1,0 +1,8 @@
+---
+- name: using the jinja2 template
+  hosts: all
+  become: yes
+  remote_user: ansible
+  roles:
+    - install-httpd
+    
