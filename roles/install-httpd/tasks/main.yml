@@ -3,7 +3,7 @@
   become: yes
   apt:
     name: lighttpd
-    state: lastest
+    state: latest
     upadate_cache: yes
 
 - name: Generate the configuration file
